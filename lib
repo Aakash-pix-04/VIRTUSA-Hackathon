@@ -1,0 +1,56 @@
+[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "hello",
+            "hey",
+            "hi",
+            "good day",
+            "Greetings",
+            "what's up?",
+            "how is it going?",
+            "anyone there?",
+            "what can you do?",
+            "how can I get help?"
+        ],
+        "responses": [
+            "Welcome to Zephyro! How can I assist you today?",
+            "Hey there! How can I help you?",
+            "Hi! Ready to explore Zephyro's features?",
+            "I'm here to help. What do you need assistance with?",
+            "Hello! How can I make your experience better today?"
+        ],
+        "explanation": "This feature handles greetings and introductory interactions with users."
+    },
+    {
+        "tag": "trafficStatus",
+        "patterns": ["traffic status", "current traffic", "traffic conditions at XYZ road"],
+        "responses": ["The current traffic status at XYZ road is busy. It is expected to free up after 4 PM."],
+        "explanation": "Provides information about the current traffic status at a specific location."
+    },
+    {
+        "tag": "transportationAvailability",
+        "patterns": ["transport available", "from ABD to XYZ road", "public transportation", "private transportation", "Uber near me"],
+        "responses": ["Certainly! There are public transportation options available, such as Bus123. You can also consider private transportation options, including Uber, which is available nearby."],
+        "explanation": "Offers details about the availability of transportation options, both public and private."
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome! If you have more questions, feel free to ask.", "Glad I could help! If you need further assistance, don't hesitate to ask."],
+        "explanation": "Handles expressions of gratitude and provides a friendly response."
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya"],
+        "responses": ["Thank you for using Zephyro! Have a nice ride or journey. If you have more questions, feel free to ask.", "Goodbye! Have a safe journey!"],
+        "explanation": "Manages farewell messages and wishes users well on their journey."
+    },
+    {
+        "tag": "featureExplanation",
+        "patterns": ["What can you do?", "Tell me about your features", "Explain your capabilities", "What are your functions?"],
+        "responses": [
+            "Zephyro is designed to assist you with various tasks. Here are some of my features:\n\n1. Greetings: I can greet you and initiate conversations.\n2. Traffic Status: I provide information about current traffic conditions.\n3. Transportation Availability: I help you find available transportation options.\n4. Thanks: I respond to expressions of gratitude.\n5. Goodbye: I bid farewell and wish you well on your journey."
+        ]
+    }
+]
